@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+     <style>
+        .contain{
+            margin-top:80px;
+            padding:20px;
+        }
+        .skills-section{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .skills-section h2{
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .skill{
+            margin-bottom: 15px;
+        }
+        .skill h3{
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .skill-bar{
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 20px;
+            position: relative;
+        }
+        .progress{
+            background: #4caf50;
+            height: 100%;
+            border-radius: 5px 0 0 5px;
+        }
+        @media (max-width:769px){
+            .skills-section{
+                padding: 15px;
+            }
+            .skill h3{
+                font-size: 16px;
+            }
+        }
+     </style>
+</head>
+<body>
+    <header>
+        <i>Jamuna</i>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./skills.html">Skills</a>
+            <a href="./project.html">Projects</a>
+            <!-- <a href="#">Resume</a> -->
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="contain">
+        <section class="skills-section">
+            <h2>My Skills</h2>
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="progress" style="width:90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="progress" style="width:80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Javascript</h3>
+                <div class="skill-bar">
+                    <div class="progress" style="width:70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Video Editing</h3>
+                <div class="skill-bar">
+                    <div class="progress" style="width:60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Blockchain</h3>
+                <div class="skill-bar">
+                    <div class="progress" style="width:50%"></div>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+</body>
+</html>
